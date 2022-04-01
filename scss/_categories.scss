@@ -1,0 +1,35 @@
+@import "vars";
+
+.categories {
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    width: 350px;
+    min-height: 419px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-image: url(../img/men.jpg);
+
+    &__item-women {
+      background-image: url(../img/women.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__item-acsessories {
+      background-image: url(../img/accessories.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
